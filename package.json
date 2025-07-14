@@ -15,7 +15,7 @@
     "@tailwindcss/vite": "^4.1.10",
     "embla-carousel-react": "^8.6.0",
     "i18next": "^25.2.1",
-    "motion": "^12.16.0",
+    "motion": "^12.23.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.5.3",
