@@ -18,7 +18,7 @@
     "motion": "^12.23.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-i18next": "^15.5.3",
+    "react-i18next": "^15.6.0",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
