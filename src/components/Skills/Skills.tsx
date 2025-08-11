@@ -6,11 +6,9 @@ import Docker from "@/assets/images/docker.svg";
 import Electron from "@/assets/images/electron.svg";
 import Flyway from "@/assets/images/flyway.svg";
 import Git from "@/assets/images/git.svg";
-import Github from "@/assets/images/github.svg";
 import GithubActions from "@/assets/images/github-actions.svg";
 import Gradle from "@/assets/images/gradle.svg";
 import Grafana from "@/assets/images/grafana.svg";
-import Hibernate from "@/assets/images/hibernate.svg";
 import Java from "@/assets/images/java.svg";
 import Junit from "@/assets/images/junit.svg";
 import Kafka from "@/assets/images/kafka.svg";
@@ -46,10 +44,8 @@ const skillItems = [
     text: "GitHub Actions",
     imageSrc: GithubActions
   },
-  { href: "https://github.com/", text: "GitHub", imageSrc: Github },
   { href: "https://gradle.org/", text: "Gradle", imageSrc: Gradle },
   { href: "https://grafana.com/", text: "Grafana", imageSrc: Grafana },
-  { href: "https://hibernate.org/", text: "Hibernate", imageSrc: Hibernate },
   { href: "https://www.java.com/", text: "Java", imageSrc: Java },
   { href: "https://junit.org/", text: "JUnit", imageSrc: Junit },
   { href: "https://kafka.apache.org/", text: "Kafka", imageSrc: Kafka },
