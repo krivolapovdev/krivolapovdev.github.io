@@ -28,7 +28,7 @@ export function Home() {
       <img
         src={Pixar}
         alt="Pixar"
-        className="z-[1] h-[220px] w-[150px] rounded-full border-1 border-transparent p-1 transition-all duration-500 ease-in-out hover:rounded-full hover:border-black"
+        className="z-[1] w-50 h-auto rounded-full border-1 border-transparent p-1 transition-all duration-500 ease-in-out hover:rounded-full hover:border-black"
       />
 
       <div className="z-1 mx-auto max-w-4xl space-y-4 px-4 text-center md:space-y-6">
