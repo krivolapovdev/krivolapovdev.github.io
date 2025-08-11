@@ -12,7 +12,7 @@
     "biome": "biome check ./src --write",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "lefthook install"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
@@ -29,7 +29,7 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
-    "husky": "^9.1.7",
+    "lefthook": "^1.12.2",
     "typescript": "~5.8.3",
     "vite": "^6.3.5",
     "vite-tsconfig-paths": "^5.1.4"
