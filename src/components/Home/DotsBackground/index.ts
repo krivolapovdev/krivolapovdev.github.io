@@ -1,1 +1,1 @@
-export * from './DotsBackground';
+export * from "./DotsBackground";

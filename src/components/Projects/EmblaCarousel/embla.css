@@ -159,7 +159,7 @@
   border-radius: 50%;
   display: flex;
   align-items: center;
-  content: '';
+  content: "";
 }
 
 .embla__dot--selected:after {

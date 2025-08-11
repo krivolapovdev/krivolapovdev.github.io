@@ -1,1 +1,1 @@
-export * from './SkillItem';
+export * from "./SkillItem";

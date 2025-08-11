@@ -1,1 +1,1 @@
-export * from './EmblaCarousel';
+export * from "./EmblaCarousel";

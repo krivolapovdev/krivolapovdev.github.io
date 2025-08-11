@@ -1,3 +1,3 @@
-export * from './DotButton';
-export * from './NextButton';
-export * from './PrevButton';
+export * from "./DotButton";
+export * from "./NextButton";
+export * from "./PrevButton";

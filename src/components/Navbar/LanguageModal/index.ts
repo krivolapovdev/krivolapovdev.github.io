@@ -1,1 +1,1 @@
-export * from './LanguageModal';
+export * from "./LanguageModal";

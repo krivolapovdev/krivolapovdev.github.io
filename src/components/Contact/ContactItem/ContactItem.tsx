@@ -6,9 +6,19 @@ type ContactItemProps = {
   bg: string;
 };
 
-export function ContactItem({ href, alt, icon, border, bg }: Readonly<ContactItemProps>) {
+export function ContactItem({
+  href,
+  alt,
+  icon,
+  border,
+  bg
+}: Readonly<ContactItemProps>) {
   return (
-    <a href={href} target='_blank' rel='noopener noreferrer'>
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img
         src={icon}
         alt={alt}

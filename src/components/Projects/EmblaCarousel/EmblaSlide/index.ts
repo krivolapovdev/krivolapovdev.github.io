@@ -1,1 +1,1 @@
-export * from './EmblaSlide';
+export * from "./EmblaSlide";

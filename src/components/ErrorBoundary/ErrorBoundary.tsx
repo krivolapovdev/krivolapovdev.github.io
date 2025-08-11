@@ -1,4 +1,4 @@
-import { Component, ErrorInfo, ReactNode } from 'react';
+import { Component, type ErrorInfo, type ReactNode } from "react";
 
 type ErrorBoundaryProps = {
   children?: ReactNode;
@@ -8,7 +8,10 @@ type ErrorBoundaryState = {
   hasError: boolean;
 };
 
-export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
+export class ErrorBoundary extends Component<
+  ErrorBoundaryProps,
+  ErrorBoundaryState
+> {
   public state: ErrorBoundaryState = {
     hasError: false
   };
@@ -18,11 +21,13 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    console.error('Uncaught error:', error, errorInfo);
+    console.error("Uncaught error:", error, errorInfo);
   }
 
   render(): ReactNode {
-    if (this.state.hasError) return <h1>Something went wrong.</h1>;
+    if (this.state.hasError) {
+      return <h1>Something went wrong.</h1>;
+    }
 
     return this.props.children;
   }
