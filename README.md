@@ -15,7 +15,7 @@
 
 <div align="center">
   <a href="https://krivolapovva.ru/">
-    <img src="./.github/site.gif" alt="Website Preview" width="80%">
+    <img src="./.github/site.webp" alt="Website Preview" width="80%">
   </a>
 </div>
 
