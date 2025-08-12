@@ -24,7 +24,7 @@
 - **Frontend:** React + Vite
 - **Styling:** Tailwind CSS
 - **Deployment:** GitHub Pages
-- **Additional Tools:** ESLint, Prettier, Husky, Motion
+- **Additional Tools:** Biome, Lefthook, Motion
 
 ## 📦 Getting Started
 
