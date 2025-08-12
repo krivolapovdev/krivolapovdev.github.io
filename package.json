@@ -5,12 +5,12 @@
   "version": "1.0.0",
   "type": "module",
   "engines": {
-    "node": ">=22.16.0"
+    "node": ">=22.18.0"
   },
   "scripts": {
     "dev": "vite",
     "biome": "biome check ./src --write",
-    "lint": "eslint .",
+    "build": "tsc -b && vite build",
     "preview": "vite preview",
     "prepare": "lefthook install"
   },
