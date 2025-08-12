@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-i18n.use(initReactI18next).init({
+void i18n.use(initReactI18next).init({
   lng: "en",
   fallbackLng: "en",
   debug: true,
@@ -54,9 +54,10 @@ i18n.use(initReactI18next).init({
         },
         projects: {
           slides: {
-            develop: {
-              title: "Develop",
-              description: "In progress"
+            codeOutputQuiz: {
+              title: "Code Output Quiz",
+              description:
+                "Test programming knowledge by predicting the output of code"
             },
             patent1: {
               title: "#2024660800",
@@ -136,9 +137,9 @@ i18n.use(initReactI18next).init({
         },
         projects: {
           slides: {
-            develop: {
-              title: "Разработка",
-              description: "В процессе"
+            codeOutputQuiz: {
+              title: "Code Output Quiz",
+              description: "Проверьте свои знания в области программирования"
             },
             patent1: {
               title: "#2024660800",
@@ -172,5 +173,3 @@ i18n.use(initReactI18next).init({
     }
   }
 });
-
-export default i18n;
