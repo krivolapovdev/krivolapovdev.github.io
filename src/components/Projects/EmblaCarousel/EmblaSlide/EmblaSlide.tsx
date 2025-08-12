@@ -1,11 +1,13 @@
 type EmblaSlideProps = {
   title: string;
+  emoji: string;
   description: string;
   href: string;
 };
 
 export function EmblaSlide({
   title,
+  emoji,
   description,
   href
 }: Readonly<EmblaSlideProps>) {
@@ -13,9 +15,10 @@ export function EmblaSlide({
     <div className="embla__slide relative">
       <div className="embla__slide__number flex flex-col text-center">
         <h1 className="text-lg font-semibold text-white sm:text-2xl md:text-3xl lg:text-4xl">
+          {emoji}
           {title}
         </h1>
-        <p className="text-xs font-light text-gray-300 sm:text-sm md:text-base">
+        <p className="text-xs pt-2 font-light text-gray-300 sm:text-sm md:text-base">
           {description}
         </p>
       </div>
