@@ -17,7 +17,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "embla-carousel-react": "^8.6.0",
-    "i18next": "^25.2.1",
+    "i18next": "^25.3.6",
     "motion": "^12.23.5",
     "react": "^19.0.0",
     "react-dom": "^19.1.1",
