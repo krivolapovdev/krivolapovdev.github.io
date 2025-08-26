@@ -15,7 +15,11 @@
 
 <div align="center">
   <a href="https://krivolapovva.ru/">
-    <img src="./.github/site.webp" alt="Website Preview" width="80%">
+    <img src=".github/site-1.webp" alt="Website Preview" width="80%">
+    <img src=".github/site-2.webp" alt="Website Preview" width="80%">
+    <img src=".github/site-3.webp" alt="Website Preview" width="80%">
+    <img src=".github/site-4.webp" alt="Website Preview" width="80%">
+    <img src=".github/site-5.webp" alt="Website Preview" width="80%">
   </a>
 </div>
 
