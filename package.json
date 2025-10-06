@@ -20,14 +20,14 @@
     "i18next": "^25.3.6",
     "motion": "^12.23.12",
     "react": "^19.0.0",
-    "react-dom": "^19.1.1",
+    "react-dom": "^19.2.0",
     "react-i18next": "^15.6.0",
     "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.4",
     "@types/react": "^19.1.11",
-    "@types/react-dom": "^19.1.7",
+    "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.1",
     "lefthook": "^1.12.3",
     "typescript": "~5.9.2",
