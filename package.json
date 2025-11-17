@@ -22,7 +22,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.2.0",
     "react-i18next": "^15.6.0",
-    "tailwindcss": "^4.1.12"
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.4",
