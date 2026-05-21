@@ -44,9 +44,6 @@ jobs:
           name: production-files
           path: ./dist
 
-      - name: Add CNAME file
-        run: echo 'krivolapovva.ru' > ./dist/CNAME
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
